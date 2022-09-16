@@ -10,14 +10,14 @@ public class FunctIntro {
 		System.out.println("sum is "+obj.sum(4, 8));
 	}
 	
-	void subt(int x, int y) 
+	public void subt(int x, int y) 
 	{
 		//int x=8, y=3;
 		int z=x-y;
 		System.out.println("Substraction is "+z);	
 	}
 		
-	int sum(int x, int y) 
+	public int sum(int x, int y) 
 	{
 		int z=x+y;
 		return (z);	
