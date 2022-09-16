@@ -2,10 +2,10 @@ package oops1;
 //Private example
 
 class A{
-	private int x =2; //private variable
-	private void abc() { //private method, can't use outside this class
-		System.out.println("private");
-	}
+	//private int x =2; //private variable
+	//private void abc() { //private method, can't use outside this class
+	//	System.out.println("private");
+	//}
 	void xyz() {
 		System.out.println("public");
 	}
