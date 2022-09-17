@@ -16,10 +16,15 @@ public class CatchMultiple {
 			System.out.println("cannot divide by zero");
 		}
 		
-		
 		catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("Array is out of bound");
 		}
+		
+		//general - can be used to any type exception
+		catch(Exception e) { 
+			System.out.println("general exception");
+		}
+				
 		
 	}
 
